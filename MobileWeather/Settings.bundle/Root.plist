@@ -44,7 +44,7 @@
 			<key>Key</key>
 			<string>weatherapikey</string>
 			<key>DefaultValue</key>
-			<string></string>
+			<string>1b4c4b81b018adbcb8bd40ab718f52b2</string>
 		</dict>
 	</array>
 	<key>StringsTable</key>

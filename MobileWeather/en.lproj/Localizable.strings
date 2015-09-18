@@ -63,7 +63,7 @@
 
 /****************************/
 /* Static speak messages. */
-"speak.welcome" = "welcome to mobile weather";
+"speak.welcome" = "Welcome to the PubNub Test App!";
 
 /****************************/
 /* Static alert messages */
@@ -82,7 +82,7 @@
 /****************************/
 /* Current conditions section. */
 /* %1$ = title, %2$ = temperature, %3$ = humidity,  %4$ = wind speed */
-"conditions.speak" = "it is currently %1$@, and %2$@ with %3$@ humidity, and a wind speed of %4$@";
+"conditions.speak" = "Thanks to PubbNubb, we're happy to inform you that it is currently %1$@, and %2$@ with %3$@ humidity, and a wind speed of %4$@";
 /* %1$ = temperature, %2$ = humidity, %3$ = wind speed */
 "conditions.show" = "%1$@, %2$@, %3$@";
 /* This is a regular expression pattern used to get a short version of the condition summary. */

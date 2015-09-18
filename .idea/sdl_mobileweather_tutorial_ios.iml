@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CIDR_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/Alert.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/Alert.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/AlertType.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/AlertType.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/AppDelegate.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/AppDelegate.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/EnumType.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/EnumType.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/Forecast.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/Forecast.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/ForecastIOProcessor.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/ForecastIOProcessor.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/ForecastIOService.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/ForecastIOService.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/GPSLocation.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/GPSLocation.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/HttpConnection.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/HttpConnection.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/ImageProcessor.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/ImageProcessor.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/Images.xcassets" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/InfoType.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/InfoType.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/LengthNumber.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/LengthNumber.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/Localization.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/Localization.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/LocationService.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/LocationService.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/LockScreen.xib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/Main.storyboard" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/MainViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/MainViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/NSBundle+Language.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/NSBundle+Language.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/NSUserDefaults+RegisterSettings.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/NSUserDefaults+RegisterSettings.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/Notifications.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/Notifications.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/PercentageNumber.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/PercentageNumber.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/Prefix.pch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/RoadConditions.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/RoadConditions.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/Settings.bundle" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/Settings.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/SmartDeviceLinkService.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/SmartDeviceLinkService.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/SpeedNumber.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/SpeedNumber.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/TemperatureNumber.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/TemperatureNumber.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/UnitConverter.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/UnitConverter.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/UnitNumber.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/UnitNumber.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/UnitType.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/WeatherConditions.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/WeatherConditions.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/WeatherDataManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/WeatherDataManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/WeatherLanguage.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/WeatherLanguage.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/WeatherLocation.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/WeatherLocation.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/WeatherProcessor.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/WeatherService.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/WeatherService.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/de.lproj/InfoPlist.strings" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/de.lproj/Localizable.strings" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/de.lproj/Localizable.stringsdict" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/en.lproj/InfoPlist.strings" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/en.lproj/Localizable.strings" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/en.lproj/Localizable.stringsdict" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/es.lproj/InfoPlist.strings" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/es.lproj/Localizable.strings" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/es.lproj/Localizable.stringsdict" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/fr.lproj/InfoPlist.strings" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/fr.lproj/Localizable.strings" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/fr.lproj/Localizable.stringsdict" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/main.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/pt.lproj/InfoPlist.strings" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/pt.lproj/Localizable.strings" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MobileWeather/pt.lproj/Localizable.stringsdict" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Podfile" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/EAAccessory+SDLProtocols.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/EAAccessory+SDLProtocols.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/EAAccessoryManager+SDLProtocols.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/EAAccessoryManager+SDLProtocols.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/NSThread+ThreadIndex.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/NSThread+ThreadIndex.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLAbstractProtocol.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLAbstractProtocol.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLAbstractTransport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLAbstractTransport.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLAddCommand.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLAddCommand.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLAddCommandResponse.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLAddCommandResponse.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLAddSubMenu.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLAddSubMenu.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLAddSubMenuResponse.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLAddSubMenuResponse.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLAirbagStatus.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLAirbagStatus.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLAlert.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLAlert.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLAlertManeuver.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLAlertManeuver.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLAlertManeuverResponse.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLAlertManeuverResponse.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLAlertResponse.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLAlertResponse.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLAmbientLightStatus.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLAmbientLightStatus.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLAppHMIType.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLAppHMIType.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLAppInterfaceUnregisteredReason.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLAppInterfaceUnregisteredReason.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLAudioPassThruCapabilities.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLAudioPassThruCapabilities.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLAudioStreamingState.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLAudioStreamingState.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLAudioType.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLAudioType.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLBeltStatus.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLBeltStatus.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLBitsPerSample.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLBitsPerSample.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLBodyInformation.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLBodyInformation.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLButtonCapabilities.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLButtonCapabilities.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLButtonEventMode.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLButtonEventMode.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLButtonName.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLButtonName.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLButtonPressMode.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLButtonPressMode.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLCarModeStatus.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLCarModeStatus.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLChangeRegistration.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLChangeRegistration.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLChangeRegistrationResponse.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLChangeRegistrationResponse.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLCharacterSet.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLCharacterSet.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLChoice.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLChoice.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLClusterModeStatus.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLClusterModeStatus.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLCompassDirection.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLCompassDirection.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLComponentVolumeStatus.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLComponentVolumeStatus.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLConsoleController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLConsoleController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLCreateInteractionChoiceSet.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLCreateInteractionChoiceSet.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLCreateInteractionChoiceSetResponse.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLCreateInteractionChoiceSetResponse.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLDIDResult.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLDIDResult.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLDebugTool.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLDebugTool.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLDebugToolConsole.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLDecoder.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLDeleteCommand.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLDeleteCommand.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLDeleteCommandResponse.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLDeleteCommandResponse.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLDeleteFile.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLDeleteFile.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLDeleteFileResponse.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLDeleteFileResponse.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLDeleteInteractionChoiceSet.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLDeleteInteractionChoiceSet.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLDeleteInteractionChoiceSetResponse.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLDeleteInteractionChoiceSetResponse.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLDeleteSubMenu.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLDeleteSubMenu.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLDeleteSubMenuResponse.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLDeleteSubMenuResponse.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLDeviceInfo.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLDeviceInfo.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLDeviceLevelStatus.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLDeviceLevelStatus.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLDeviceStatus.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLDeviceStatus.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLDiagnosticMessage.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLDiagnosticMessage.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLDiagnosticMessageResponse.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLDiagnosticMessageResponse.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLDialNumber.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLDialNumber.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLDialNumberResponse.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLDialNumberResponse.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLDimension.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLDimension.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLDisplayCapabilities.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLDisplayCapabilities.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLDisplayType.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLDisplayType.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLDriverDistractionState.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLDriverDistractionState.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLECallConfirmationStatus.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLECallConfirmationStatus.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLECallInfo.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLECallInfo.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLEmergencyEvent.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLEmergencyEvent.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLEmergencyEventType.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLEmergencyEventType.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLEncodedSyncPData.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLEncodedSyncPData.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLEncodedSyncPDataResponse.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLEncodedSyncPDataResponse.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLEncoder.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLEndAudioPassThru.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLEndAudioPassThru.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLEndAudioPassThruResponse.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLEndAudioPassThruResponse.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLEnum.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLEnum.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLFileType.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLFileType.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLFuelCutoffStatus.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLFuelCutoffStatus.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLFunctionID.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLFunctionID.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLGPSData.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLGPSData.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLGenericResponse.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLGenericResponse.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLGetDTCs.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLGetDTCs.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLGetDTCsResponse.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLGetDTCsResponse.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLGetVehicleData.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLGetVehicleData.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLGetVehicleDataResponse.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLGetVehicleDataResponse.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLGlobalProperty.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLGlobalProperty.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLHMICapabilities.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLHMICapabilities.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLHMILevel.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLHMILevel.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLHMIPermissions.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLHMIPermissions.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLHMIZoneCapabilities.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLHMIZoneCapabilities.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLHeadLampStatus.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLHeadLampStatus.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLHexUtility.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLHexUtility.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLIAPSession.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLIAPSession.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLIAPSessionDelegate.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLIAPTransport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLIAPTransport.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLIgnitionStableStatus.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLIgnitionStableStatus.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLIgnitionStatus.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLIgnitionStatus.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLImage.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLImage.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLImageField.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLImageField.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLImageFieldName.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLImageFieldName.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLImageResolution.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLImageResolution.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLImageType.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLImageType.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLInteractionMode.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLInteractionMode.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLJingle.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLJingle.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLJsonDecoder.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLJsonDecoder.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLJsonEncoder.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLJsonEncoder.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLKeyboardEvent.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLKeyboardEvent.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLKeyboardLayout.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLKeyboardLayout.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLKeyboardProperties.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLKeyboardProperties.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLKeypressMode.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLKeypressMode.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLLanguage.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLLanguage.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLLayoutMode.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLLayoutMode.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLListFiles.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLListFiles.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLListFilesResponse.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLListFilesResponse.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLLockScreenManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLLockScreenManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLLockScreenStatus.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLLockScreenStatus.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLMaintenanceModeStatus.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLMaintenanceModeStatus.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLMediaClockFormat.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLMediaClockFormat.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLMenuParams.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLMenuParams.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLMyKey.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLMyKey.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLNames.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLObjectWithPriority.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLObjectWithPriority.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLOnAppInterfaceUnregistered.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLOnAppInterfaceUnregistered.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLOnAudioPassThru.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLOnAudioPassThru.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLOnButtonEvent.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLOnButtonEvent.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLOnButtonPress.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLOnButtonPress.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLOnCommand.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLOnCommand.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLOnDriverDistraction.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLOnDriverDistraction.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLOnEncodedSyncPData.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLOnEncodedSyncPData.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLOnHMIStatus.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLOnHMIStatus.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLOnHashChange.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLOnHashChange.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLOnKeyboardInput.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLOnKeyboardInput.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLOnLanguageChange.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLOnLanguageChange.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLOnLockScreenStatus.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLOnLockScreenStatus.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLOnPermissionsChange.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLOnPermissionsChange.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLOnSyncPData.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLOnSyncPData.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLOnSystemRequest.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLOnSystemRequest.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLOnTBTClientState.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLOnTBTClientState.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLOnTouchEvent.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLOnTouchEvent.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLOnVehicleData.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLOnVehicleData.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLPRNDL.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLPRNDL.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLParameterPermissions.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLParameterPermissions.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLPerformAudioPassThru.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLPerformAudioPassThru.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLPerformAudioPassThruResponse.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLPerformAudioPassThruResponse.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLPerformInteraction.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLPerformInteraction.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLPerformInteractionResponse.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLPerformInteractionResponse.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLPermissionItem.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLPermissionItem.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLPermissionStatus.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLPermissionStatus.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLPolicyDataParser.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLPolicyDataParser.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLPowerModeQualificationStatus.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLPowerModeQualificationStatus.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLPowerModeStatus.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLPowerModeStatus.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLPredefinedLayout.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLPredefinedLayout.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLPrerecordedSpeech.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLPrerecordedSpeech.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLPresetBankCapabilities.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLPresetBankCapabilities.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLPrimaryAudioSource.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLPrimaryAudioSource.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLPrioritizedObjectCollection.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLPrioritizedObjectCollection.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLProtocol.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLProtocol.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLProtocolHeader.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLProtocolHeader.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLProtocolListener.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLProtocolMessage.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLProtocolMessage.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLProtocolMessageAssembler.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLProtocolMessageAssembler.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLProtocolMessageDisassembler.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLProtocolMessageDisassembler.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLProtocolReceivedMessageRouter.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLProtocolReceivedMessageRouter.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLProxy.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLProxy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLProxyFactory.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLProxyFactory.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLProxyListener.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLPutFile.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLPutFile.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLPutFileResponse.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLPutFileResponse.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLQueryAppsManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLQueryAppsManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLRPCMessage.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLRPCMessage.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLRPCMessageType.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLRPCNotification.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLRPCNotification.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLRPCPayload.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLRPCPayload.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLRPCRequest.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLRPCRequest.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLRPCRequestFactory.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLRPCRequestFactory.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLRPCResponse.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLRPCResponse.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLRPCStruct.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLRPCStruct.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLReadDID.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLReadDID.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLReadDIDResponse.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLReadDIDResponse.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLRegisterAppInterface.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLRegisterAppInterface.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLRegisterAppInterfaceResponse.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLRegisterAppInterfaceResponse.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLRequestType.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLRequestType.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLResetGlobalProperties.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLResetGlobalProperties.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLResetGlobalPropertiesResponse.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLResetGlobalPropertiesResponse.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLResult.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLResult.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSamplingRate.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSamplingRate.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLScreenParams.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLScreenParams.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLScrollableMessage.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLScrollableMessage.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLScrollableMessageResponse.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLScrollableMessageResponse.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSendLocation.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSendLocation.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSendLocationResponse.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSendLocationResponse.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSetAppIcon.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSetAppIcon.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSetAppIconResponse.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSetAppIconResponse.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSetDisplayLayout.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSetDisplayLayout.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSetDisplayLayoutResponse.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSetDisplayLayoutResponse.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSetGlobalProperties.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSetGlobalProperties.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSetGlobalPropertiesResponse.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSetGlobalPropertiesResponse.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSetMediaClockTimer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSetMediaClockTimer.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSetMediaClockTimerResponse.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSetMediaClockTimerResponse.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLShow.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLShow.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLShowConstantTBT.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLShowConstantTBT.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLShowConstantTBTResponse.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLShowConstantTBTResponse.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLShowResponse.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLShowResponse.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSingleTireStatus.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSingleTireStatus.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSiphonServer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSiphonServer.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSlider.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSlider.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSliderResponse.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSliderResponse.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSoftButton.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSoftButton.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSoftButtonCapabilities.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSoftButtonCapabilities.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSoftButtonType.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSoftButtonType.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSpeak.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSpeak.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSpeakResponse.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSpeakResponse.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSpeechCapabilities.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSpeechCapabilities.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLStartTime.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLStartTime.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLStreamDelegate.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLStreamDelegate.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSubscribeButton.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSubscribeButton.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSubscribeButtonResponse.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSubscribeButtonResponse.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSubscribeVehicleData.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSubscribeVehicleData.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSubscribeVehicleDataResponse.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSubscribeVehicleDataResponse.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSyncMsgVersion.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSyncMsgVersion.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSyncPData.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSyncPData.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSyncPDataResponse.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSyncPDataResponse.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSystemAction.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSystemAction.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSystemContext.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSystemContext.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSystemRequest.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSystemRequest.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSystemRequestResponse.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLSystemRequestResponse.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLTBTState.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLTBTState.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLTCPTransport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLTCPTransport.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLTTSChunk.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLTTSChunk.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLTTSChunkFactory.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLTTSChunkFactory.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLTextAlignment.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLTextAlignment.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLTextField.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLTextField.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLTextFieldName.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLTextFieldName.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLTimer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLTimer.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLTimerMode.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLTimerMode.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLTireStatus.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLTireStatus.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLTouchCoord.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLTouchCoord.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLTouchEvent.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLTouchEvent.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLTouchEventCapabilities.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLTouchEventCapabilities.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLTouchType.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLTouchType.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLTransportDelegate.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLTriggerSource.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLTriggerSource.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLTurn.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLTurn.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLUnregisterAppInterface.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLUnregisterAppInterface.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLUnregisterAppInterfaceResponse.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLUnregisterAppInterfaceResponse.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLUnsubscribeButton.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLUnsubscribeButton.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLUnsubscribeButtonResponse.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLUnsubscribeButtonResponse.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLUnsubscribeVehicleData.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLUnsubscribeVehicleData.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLUnsubscribeVehicleDataResponse.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLUnsubscribeVehicleDataResponse.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLUpdateMode.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLUpdateMode.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLUpdateTurnList.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLUpdateTurnList.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLUpdateTurnListResponse.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLUpdateTurnListResponse.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLV1ProtocolHeader.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLV1ProtocolHeader.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLV1ProtocolMessage.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLV1ProtocolMessage.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLV2ProtocolHeader.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLV2ProtocolHeader.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLV2ProtocolMessage.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLV2ProtocolMessage.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLVehicleDataActiveStatus.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLVehicleDataActiveStatus.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLVehicleDataEventStatus.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLVehicleDataEventStatus.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLVehicleDataNotificationStatus.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLVehicleDataNotificationStatus.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLVehicleDataResult.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLVehicleDataResult.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLVehicleDataResultCode.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLVehicleDataResultCode.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLVehicleDataStatus.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLVehicleDataStatus.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLVehicleDataType.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLVehicleDataType.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLVehicleType.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLVehicleType.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLVrCapabilities.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLVrCapabilities.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLVrHelpItem.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLVrHelpItem.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLWarningLightStatus.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLWarningLightStatus.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLWiperStatus.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLWiperStatus.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SmartDeviceLink.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods/Pods-acknowledgements.markdown" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods/Pods-acknowledgements.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods/Pods-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods/Pods-resources.sh" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods/Pods.debug.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods/Pods.release.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/SmartDeviceLink-iOS/SmartDeviceLink-iOS-Private.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/SmartDeviceLink-iOS/SmartDeviceLink-iOS-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/SmartDeviceLink-iOS/SmartDeviceLink-iOS-prefix.pch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/SmartDeviceLink-iOS/SmartDeviceLink-iOS.xcconfig" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="Header Search Paths">
+        <CLASSES>
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AVFoundation.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AVKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vImage.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Accelerate.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Accounts.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AdSupport.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AddressBook.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AudioUnit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CFNetwork.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CloudKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Contacts.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/ContactsUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreAudio.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreAudioKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreData.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreImage.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreLocation.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreMIDI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreMedia.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreMotion.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreSpotlight.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreTelephony.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreText.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreVideo.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/EventKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/EventKitUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Foundation.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/GLKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/GSS.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/GameController.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/GameKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/GameplayKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/HealthKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/HomeKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/ImageIO.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/JavaScriptCore.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MapKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MediaAccessibility.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MessageUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Metal.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MetalKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MetalPerformanceShaders.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MobileCoreServices.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/ModelIO.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/NetworkExtension.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/NewsstandKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/NotificationCenter.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/OpenAL.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/OpenGLES.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/PassKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Photos.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/PhotosUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/PushKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/QuartzCore.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/QuickLook.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/ReplayKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/SafariServices.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/SceneKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Security.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Social.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/SpriteKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/StoreKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Twitter.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/UIKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/VideoToolbox.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/WatchKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/WebKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/iAd.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/7.0.0/include" />
+          <root url="file:///Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library/Frameworks/DTPerformanceSession.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library/Frameworks/InterfaceBuilderKit.framework/Headers" />
+          <root url="file://$MODULE_DIR$/Pods/Headers/Private" />
+          <root url="file://$MODULE_DIR$/Pods/Headers/Public" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AVFoundation.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AVKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vImage.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Accelerate.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Accounts.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AdSupport.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AddressBook.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AudioUnit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CFNetwork.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CloudKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Contacts.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/ContactsUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreAudio.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreAudioKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreData.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreImage.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreLocation.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreMIDI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreMedia.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreMotion.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreSpotlight.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreTelephony.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreText.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreVideo.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/EventKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/EventKitUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Foundation.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/GLKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/GSS.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/GameController.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/GameKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/GameplayKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/HealthKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/HomeKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/ImageIO.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/JavaScriptCore.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MapKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MediaAccessibility.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MessageUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Metal.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MetalKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MetalPerformanceShaders.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MobileCoreServices.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/ModelIO.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/NetworkExtension.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/NewsstandKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/NotificationCenter.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/OpenAL.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/OpenGLES.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/PassKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Photos.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/PhotosUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/PushKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/QuartzCore.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/QuickLook.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/ReplayKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/SafariServices.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/SceneKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Security.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Social.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/SpriteKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/StoreKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Twitter.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/UIKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/VideoToolbox.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/WatchKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/WebKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/iAd.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/7.0.0/include" />
+          <root url="file:///Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library/Frameworks/DTPerformanceSession.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library/Frameworks/InterfaceBuilderKit.framework/Headers" />
+          <root url="file://$MODULE_DIR$/Pods/Headers/Private" />
+          <root url="file://$MODULE_DIR$/Pods/Headers/Public" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>
