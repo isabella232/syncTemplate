@@ -1223,6 +1223,9 @@
     [self sendRequest:request]; 
 }
 
+- (void)onOnVehicleData:(SDLOnVehicleData *)notification {
+
+}
 - (void)onOnHMIStatus:(SDLOnHMIStatus *)notification {
     [self setCurrentHMILevel:[notification hmiLevel]];
     
