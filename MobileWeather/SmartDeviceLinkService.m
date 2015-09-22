@@ -6,11 +6,13 @@
 //
 
 #import "SmartDeviceLinkService.h"
-#import <SmartDeviceLink.h>
+#import "SmartDeviceLink.h"
 #import "Localization.h"
 #import "WeatherLanguage.h"
 #import "WeatherDataManager.h"
 #import "InfoType.h"
+#import "PubNub/PubNub.h"
+
 
 #define CMDID_SHOW_WEATHER_CONDITIONS 101
 #define CMDID_SHOW_DAILY_FORECAST     102
@@ -40,7 +42,7 @@
 #define CHOICE_UNIT_IMPERIAL          302
 #define CHOICESET_LIST                400
 
-@interface SmartDeviceLinkService () <SDLProxyListener>
+@interface SmartDeviceLinkService () <SDLProxyListener, PNObjectEventListener>
 @property SDLProxy *proxy;
 @property BOOL graphicsAvailable;
 @property NSUInteger textFieldsAvailable;
@@ -55,9 +57,36 @@
 @property NSArray  *currentInfoTypeList;
 @property NSInteger currentInfoTypeListIndex;
 @property NSArray *currentForecastChoices;
+@property (nonatomic) PubNub *client;
+
 @end
 
 @implementation SmartDeviceLinkService
+
+
+PNConfiguration *configuration = [PNConfiguration configurationWithPublishKey:@"demo"
+                                                                 subscribeKey:@"demo"];
+
+//self.client = [PubNub clientWithConfiguration:configuration];
+//[self.client addListener:self];
+//[self.client subscribeToChannels:@[@"bot"] withPresence:YES];
+//
+//- (void)client:(PubNub *)client didReceiveMessage:(PNMessageResult *)message {
+//
+//    // Handle new message stored in message.data.message
+//    if (message.data.actualChannel) {
+//
+//        // Message has been received on channel group stored in
+//        // message.data.subscribedChannel
+//    }
+//    else {
+//
+//        // Message has been received on channel stored in
+//        // message.data.subscribedChannel
+//    }
+//    NSLog(@"Received message: %@ on channel %@ at %@", message.data.message,
+//            message.data.subscribedChannel, message.data.timetoken);
+//}
 
 + (instancetype)sharedService {
     static id shared = nil;
@@ -1226,6 +1255,8 @@
 - (void)onOnVehicleData:(SDLOnVehicleData *)notification {
 
 }
+
+
 - (void)onOnHMIStatus:(SDLOnHMIStatus *)notification {
     [self setCurrentHMILevel:[notification hmiLevel]];
     

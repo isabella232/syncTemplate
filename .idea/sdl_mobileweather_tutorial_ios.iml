@@ -88,6 +88,179 @@
       <sourceFolder url="file://$MODULE_DIR$/MobileWeather/pt.lproj/Localizable.strings" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/MobileWeather/pt.lproj/Localizable.stringsdict" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Podfile" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/CocoaLumberjack/Classes/CocoaLumberjack.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/CocoaLumberjack/Classes/DDASLLogCapture.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/CocoaLumberjack/Classes/DDASLLogCapture.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/CocoaLumberjack/Classes/DDASLLogger.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/CocoaLumberjack/Classes/DDASLLogger.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/CocoaLumberjack/Classes/DDAbstractDatabaseLogger.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/CocoaLumberjack/Classes/DDAbstractDatabaseLogger.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/CocoaLumberjack/Classes/DDAssertMacros.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/CocoaLumberjack/Classes/DDFileLogger.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/CocoaLumberjack/Classes/DDFileLogger.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/CocoaLumberjack/Classes/DDLegacyMacros.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/CocoaLumberjack/Classes/DDLog+LOGV.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/CocoaLumberjack/Classes/DDLog.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/CocoaLumberjack/Classes/DDLog.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/CocoaLumberjack/Classes/DDLogMacros.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/CocoaLumberjack/Classes/DDTTYLogger.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/CocoaLumberjack/Classes/DDTTYLogger.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/CocoaLumberjack/Classes/Extensions/DDContextFilterLogFormatter.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/CocoaLumberjack/Classes/Extensions/DDContextFilterLogFormatter.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/CocoaLumberjack/Classes/Extensions/DDDispatchQueueLogFormatter.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/CocoaLumberjack/Classes/Extensions/DDDispatchQueueLogFormatter.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/CocoaLumberjack/Classes/Extensions/DDMultiFormatter.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/CocoaLumberjack/Classes/Extensions/DDMultiFormatter.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Core/PubNub+APNS.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Core/PubNub+APNS.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Core/PubNub+ChannelGroup.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Core/PubNub+ChannelGroup.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Core/PubNub+Core.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Core/PubNub+Core.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Core/PubNub+CorePrivate.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Core/PubNub+History.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Core/PubNub+History.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Core/PubNub+Presence.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Core/PubNub+Presence.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Core/PubNub+PresencePrivate.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Core/PubNub+Publish.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Core/PubNub+Publish.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Core/PubNub+State.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Core/PubNub+State.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Core/PubNub+Subscribe.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Core/PubNub+Subscribe.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Core/PubNub+SubscribePrivate.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Core/PubNub+Time.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Core/PubNub+Time.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Data/Managers/PNClientState.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Data/Managers/PNClientState.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Data/Managers/PNHeartbeat.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Data/Managers/PNHeartbeat.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Data/Managers/PNStateListener.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Data/Managers/PNStateListener.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Data/Managers/PNSubscriber.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Data/Managers/PNSubscriber.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Data/PNAES.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Data/PNAES.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Data/PNConfiguration+Private.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Data/PNConfiguration.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Data/PNConfiguration.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Data/Service Objects/PNAPNSEnabledChannelsResult.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Data/Service Objects/PNAPNSEnabledChannelsResult.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Data/Service Objects/PNAcknowledgmentStatus.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Data/Service Objects/PNAcknowledgmentStatus.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Data/Service Objects/PNChannelClientStateResult.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Data/Service Objects/PNChannelClientStateResult.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Data/Service Objects/PNChannelGroupChannelsResult.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Data/Service Objects/PNChannelGroupChannelsResult.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Data/Service Objects/PNChannelGroupClientStateResult.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Data/Service Objects/PNChannelGroupClientStateResult.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Data/Service Objects/PNChannelGroupsResult.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Data/Service Objects/PNChannelGroupsResult.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Data/Service Objects/PNClientStateUpdateStatus.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Data/Service Objects/PNClientStateUpdateStatus.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Data/Service Objects/PNErrorStatus+Private.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Data/Service Objects/PNErrorStatus.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Data/Service Objects/PNErrorStatus.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Data/Service Objects/PNHistoryResult.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Data/Service Objects/PNHistoryResult.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Data/Service Objects/PNPresenceChannelGroupHereNowResult.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Data/Service Objects/PNPresenceChannelGroupHereNowResult.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Data/Service Objects/PNPresenceChannelHereNowResult.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Data/Service Objects/PNPresenceChannelHereNowResult.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Data/Service Objects/PNPresenceGlobalHereNowResult.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Data/Service Objects/PNPresenceGlobalHereNowResult.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Data/Service Objects/PNPresenceWhereNowResult.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Data/Service Objects/PNPresenceWhereNowResult.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Data/Service Objects/PNPublishStatus.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Data/Service Objects/PNPublishStatus.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Data/Service Objects/PNResult+Private.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Data/Service Objects/PNResult.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Data/Service Objects/PNResult.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Data/Service Objects/PNServiceData+Private.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Data/Service Objects/PNServiceData.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Data/Service Objects/PNServiceData.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Data/Service Objects/PNStatus+Private.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Data/Service Objects/PNStatus.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Data/Service Objects/PNStatus.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Data/Service Objects/PNSubscribeStatus.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Data/Service Objects/PNSubscribeStatus.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Data/Service Objects/PNSubscriberResults.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Data/Service Objects/PNSubscriberResults.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Data/Service Objects/PNTimeResult.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Data/Service Objects/PNTimeResult.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Misc/Helpers/PNArray.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Misc/Helpers/PNArray.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Misc/Helpers/PNChannel.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Misc/Helpers/PNChannel.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Misc/Helpers/PNClass.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Misc/Helpers/PNClass.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Misc/Helpers/PNData.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Misc/Helpers/PNData.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Misc/Helpers/PNDictionary.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Misc/Helpers/PNDictionary.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Misc/Helpers/PNGZIP.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Misc/Helpers/PNGZIP.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Misc/Helpers/PNHelpers.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Misc/Helpers/PNJSON.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Misc/Helpers/PNJSON.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Misc/Helpers/PNString.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Misc/Helpers/PNString.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Misc/Helpers/PNURLRequest.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Misc/Helpers/PNURLRequest.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Misc/Logger/PNLog.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Misc/Logger/PNLog.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Misc/Logger/PNLogFileManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Misc/Logger/PNLogFileManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Misc/Logger/PNLogger.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Misc/Logger/PNLogger.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Misc/PNConstants.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Misc/PNErrorCodes.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Misc/PNPrivateStructures.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Misc/PNStructures.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Misc/Protocols/PNObjectEventListener.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Misc/Protocols/PNParser.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Network/PNNetwork.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Network/PNNetwork.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Network/PNNetworkResponseSerializer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Network/PNNetworkResponseSerializer.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Network/PNReachability.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Network/PNReachability.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Network/PNRequestParameters.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Network/PNRequestParameters.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Network/PNURLBuilder.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Network/PNURLBuilder.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Network/Parsers/PNChannelGroupAuditionParser.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Network/Parsers/PNChannelGroupAuditionParser.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Network/Parsers/PNChannelGroupModificationParser.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Network/Parsers/PNChannelGroupModificationParser.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Network/Parsers/PNClientStateParser.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Network/Parsers/PNClientStateParser.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Network/Parsers/PNErrorParser.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Network/Parsers/PNErrorParser.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Network/Parsers/PNHeartbeatParser.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Network/Parsers/PNHeartbeatParser.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Network/Parsers/PNHistoryParser.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Network/Parsers/PNHistoryParser.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Network/Parsers/PNLeaveParser.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Network/Parsers/PNLeaveParser.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Network/Parsers/PNMessagePublishParser.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Network/Parsers/PNMessagePublishParser.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Network/Parsers/PNPresenceHereNowParser.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Network/Parsers/PNPresenceHereNowParser.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Network/Parsers/PNPresenceWhereNowParser.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Network/Parsers/PNPresenceWhereNowParser.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Network/Parsers/PNPushNotificationsAuditParser.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Network/Parsers/PNPushNotificationsAuditParser.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Network/Parsers/PNPushNotificationsStateModificationParser.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Network/Parsers/PNPushNotificationsStateModificationParser.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Network/Parsers/PNRemoveDeviceFromAPNSResponseParser.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Network/Parsers/PNRemoveDeviceFromAPNSResponseParser.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Network/Parsers/PNSubscribeParser.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Network/Parsers/PNSubscribeParser.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Network/Parsers/PNTimeParser.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/Network/Parsers/PNTimeParser.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/PubNub/PubNub/PubNub.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/EAAccessory+SDLProtocols.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/EAAccessory+SDLProtocols.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/EAAccessoryManager+SDLProtocols.h" isTestSource="false" />
@@ -606,15 +779,36 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLWiperStatus.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SDLWiperStatus.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SmartDeviceLink-iOS/SmartDeviceLink-iOS/SmartDeviceLink/SmartDeviceLink.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/CocoaLumberjack/CocoaLumberjack-Private.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/CocoaLumberjack/CocoaLumberjack-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/CocoaLumberjack/CocoaLumberjack-prefix.pch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/CocoaLumberjack/CocoaLumberjack-umbrella.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/CocoaLumberjack/CocoaLumberjack.modulemap" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/CocoaLumberjack/CocoaLumberjack.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/CocoaLumberjack/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods/Pods-acknowledgements.markdown" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods/Pods-acknowledgements.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods/Pods-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods/Pods-frameworks.sh" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods/Pods-resources.sh" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods/Pods-umbrella.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods/Pods.debug.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods/Pods.modulemap" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods/Pods.release.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/PubNub/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/PubNub/PubNub-Private.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/PubNub/PubNub-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/PubNub/PubNub-prefix.pch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/PubNub/PubNub-umbrella.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/PubNub/PubNub.modulemap" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/PubNub/PubNub.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/SmartDeviceLink-iOS/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/SmartDeviceLink-iOS/SmartDeviceLink-iOS-Private.xcconfig" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/SmartDeviceLink-iOS/SmartDeviceLink-iOS-dummy.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/SmartDeviceLink-iOS/SmartDeviceLink-iOS-prefix.pch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/SmartDeviceLink-iOS/SmartDeviceLink-iOS-umbrella.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/SmartDeviceLink-iOS/SmartDeviceLink-iOS.modulemap" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/SmartDeviceLink-iOS/SmartDeviceLink-iOS.xcconfig" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />

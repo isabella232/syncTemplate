@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E285E2A1990648DBCF943F7 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A91D06523E118B45F0FD5D9 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		1E555E3518466B6500B143B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E555E3418466B6500B143B4 /* Foundation.framework */; };
 		1E555E3918466B6500B143B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E555E3818466B6500B143B4 /* UIKit.framework */; };
 		1E555E4518466B6500B143B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E555E4418466B6500B143B4 /* AppDelegate.m */; };
 		1E555E4B18466B6500B143B4 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E555E4A18466B6500B143B4 /* MainViewController.m */; };
 		1E555E741846749500B143B4 /* HttpConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E555E731846749500B143B4 /* HttpConnection.m */; };
-		9D29EBFBE14DBD3DDE828F0C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FF0202E07865F0CB54AAFD2 /* libPods.a */; };
 		E402122519F62BF500CEB3B7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E402122419F62BF500CEB3B7 /* Images.xcassets */; };
 		E402122719F689FF00CEB3B7 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E402122619F689FF00CEB3B7 /* Settings.bundle */; };
 		E404D5981B6FAA7900245D2D /* LockScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E404D5971B6FAA7900245D2D /* LockScreen.xib */; };
@@ -75,7 +75,7 @@
 		1E555E4A18466B6500B143B4 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		1E555E721846749500B143B4 /* HttpConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpConnection.h; sourceTree = "<group>"; };
 		1E555E731846749500B143B4 /* HttpConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpConnection.m; sourceTree = "<group>"; };
-		3FF0202E07865F0CB54AAFD2 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A91D06523E118B45F0FD5D9 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E00DCC58C569108C72253635 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		E402122419F62BF500CEB3B7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E402122619F689FF00CEB3B7 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
@@ -167,7 +167,7 @@
 				FB8DD2C8193E39FA00F3E936 /* CoreLocation.framework in Frameworks */,
 				1E555E3918466B6500B143B4 /* UIKit.framework in Frameworks */,
 				1E555E3518466B6500B143B4 /* Foundation.framework in Frameworks */,
-				9D29EBFBE14DBD3DDE828F0C /* libPods.a in Frameworks */,
+				0E285E2A1990648DBCF943F7 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,7 +198,7 @@
 				FB8DD2C7193E39FA00F3E936 /* CoreLocation.framework */,
 				1E555E3418466B6500B143B4 /* Foundation.framework */,
 				1E555E3818466B6500B143B4 /* UIKit.framework */,
-				3FF0202E07865F0CB54AAFD2 /* libPods.a */,
+				4A91D06523E118B45F0FD5D9 /* Pods.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -401,6 +401,7 @@
 				1E555E2F18466B6500B143B4 /* Resources */,
 				E410DDBF1B441709008F1F0E /* Embed Frameworks */,
 				0A61E2BED120E999FB9C683F /* Copy Pods Resources */,
+				D8BF6FAA689730B4FE5E7EBD /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -485,6 +486,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8BF6FAA689730B4FE5E7EBD /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E080F30D8ABA409D21C933F0 /* Check Pods Manifest.lock */ = {
