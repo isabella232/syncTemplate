@@ -82,7 +82,8 @@
 - (instancetype)init {
     self = [super init];
     if (self) {
-        _client = [PubNub clientWithConfiguration:[PNConfiguration configurationWithPublishKey:@"demo-36" subscribeKey:@"demo-36"]];
+        // go to http://pubnub.com to sign up for an account and get a pub key and sub key
+        _client = [PubNub clientWithConfiguration:[PNConfiguration configurationWithPublishKey:@"<pub-key>" subscribeKey:@"<sub-key>"]];
         [_client addListener:self];
         [_client subscribeToChannels:@[@"qt-data-simulator"] withPresence:YES];
     }
