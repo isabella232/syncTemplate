@@ -9,15 +9,16 @@ PODS:
     - CocoaLumberjack/Default
   - PubNub (4.0.4):
     - CocoaLumberjack (= 2.0.0)
-  - SmartDeviceLink-iOS (4.0.0-alpha.3)
+  - SmartDeviceLink-iOS (4.0.0-RC.1)
 
 DEPENDENCIES:
+  - CocoaLumberjack (= 2.0.0)
   - PubNub (~> 4.0)
-  - SmartDeviceLink-iOS (= 4.0.0-alpha.3)
+  - SmartDeviceLink-iOS (= 4.0.0-RC.1)
 
 SPEC CHECKSUMS:
   CocoaLumberjack: a6f77d987d65dc7ba86b0f84db7d0b9084f77bcb
   PubNub: fa9dd72dc6d39f0ce6b11585bb1c8318e072ef57
-  SmartDeviceLink-iOS: 81506865ea94cc0d8a6badc6cad60b379c343693
+  SmartDeviceLink-iOS: 8bf7ab70d86115793df194e5010edecd8ca052f5
 
 COCOAPODS: 0.38.2

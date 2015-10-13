@@ -10,6 +10,9 @@
 #import "ForecastIOService.h"
 #import "LocationService.h"
 #import "SmartDeviceLinkService.h"
+#import <CocoaLumberjack/CocoaLumberjack.h>
+
+DDLogLevel ddLogLevel = DDLogLevelVerbose;
 
 @interface AppDelegate ()
 @property UIViewController *mainViewController;
@@ -39,6 +42,19 @@
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    DDFileLogger *fileLogger = [[DDFileLogger alloc] init];
+    fileLogger.rollingFrequency = 60 * 60 * 24; // 24 hour rolling
+    fileLogger.logFileManager.maximumNumberOfLogFiles = 7;
+    
+    [DDLog addLogger:[DDASLLogger sharedInstance]];
+    [DDLog addLogger:[DDTTYLogger sharedInstance]];
+    [DDLog addLogger:fileLogger];
+    
+    DDLogDebug(@"test!");
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        DDLogError(@"what what what");
+    });
     // Register every setting of the settings bundle and set it to its default value if it does not have any value set.
     [[NSUserDefaults standardUserDefaults] registerDefaultsFromSettingsBundle];
     

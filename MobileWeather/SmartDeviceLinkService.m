@@ -58,41 +58,35 @@
 @property NSInteger currentInfoTypeListIndex;
 @property NSArray *currentForecastChoices;
 @property (nonatomic) PubNub *client;
+@property (nonatomic) NSInteger correlationID;
 
 @end
 
 @implementation SmartDeviceLinkService
 
+- (NSInteger)correlationID {
+    return _correlationID += 1;
+}
 
-PNConfiguration *configuration = [PNConfiguration configurationWithPublishKey:@"demo"
-                                                                 subscribeKey:@"demo"];
-
-//self.client = [PubNub clientWithConfiguration:configuration];
-//[self.client addListener:self];
-//[self.client subscribeToChannels:@[@"bot"] withPresence:YES];
-//
-//- (void)client:(PubNub *)client didReceiveMessage:(PNMessageResult *)message {
-//
-//    // Handle new message stored in message.data.message
-//    if (message.data.actualChannel) {
-//
-//        // Message has been received on channel group stored in
-//        // message.data.subscribedChannel
-//    }
-//    else {
-//
-//        // Message has been received on channel stored in
-//        // message.data.subscribedChannel
-//    }
-//    NSLog(@"Received message: %@ on channel %@ at %@", message.data.message,
-//            message.data.subscribedChannel, message.data.timetoken);
-//}
+- (NSNumber *)correlationIDNumber {
+    return @([self correlationID]);
+}
 
 + (instancetype)sharedService {
     static id shared = nil;
     static dispatch_once_t token;
     dispatch_once(&token, ^{ shared = [[self alloc] init]; });
     return shared;
+}
+
+- (instancetype)init {
+    self = [super init];
+    if (self) {
+        _client = [PubNub clientWithConfiguration:[PNConfiguration configurationWithPublishKey:@"demo-36" subscribeKey:@"demo-36"]];
+        [_client addListener:self];
+        [_client subscribeToChannels:@[@"qt-data-simulator"] withPresence:YES];
+    }
+    return self;
 }
 
 - (void)resetProperties {
@@ -185,8 +179,8 @@ PNConfiguration *configuration = [PNConfiguration configurationWithPublishKey:@"
 
 - (void)registerApplicationInterface {
     SDLRegisterAppInterface *request = [[SDLRegisterAppInterface alloc] init];
-    [request setAppName:@"MobileWeather"];
-    [request setAppID:@"330533107"];
+    [request setAppName:@"PubNub"];
+    [request setAppID:@"1535172658"];
     [request setIsMediaApplication:@(NO)];
     [request setLanguageDesired:[SDLLanguage EN_US]];
     [request setHmiDisplayLanguageDesired:[SDLLanguage EN_US]];
@@ -214,6 +208,33 @@ PNConfiguration *configuration = [PNConfiguration configurationWithPublishKey:@"
         [request setLanguage:[self language]];
         [request setHmiDisplayLanguage:[self language]];
         [self sendRequest:request];
+    }
+}
+
+- (void)onOnPermissionsChange:(SDLOnPermissionsChange *)notification {
+    DDLogError(@"onOnPermissionsChange");
+    NSMutableArray *permissions = notification.permissionItem;
+    for (SDLPermissionItem *item in permissions) {
+        if ([item.rpcName isEqualToString:@"SubscribeVehicleData"]) {
+            if (item.hmiPermissions.allowed && item.hmiPermissions.allowed.count > 0) {
+                DDLogError(@"now we can send subscribe!");
+                SDLSubscribeVehicleData *subscribeVehicleData = [[SDLSubscribeVehicleData alloc] init];
+                subscribeVehicleData.speed = @(YES);
+                subscribeVehicleData.rpm = @(YES);
+                subscribeVehicleData.gps = @(YES);
+                subscribeVehicleData.fuelLevel = @(YES);
+                subscribeVehicleData.externalTemperature = @(YES);
+                subscribeVehicleData.fuelLevel_State = @(YES);
+                subscribeVehicleData.tirePressure = @(YES);
+                subscribeVehicleData.odometer = @(YES);
+                subscribeVehicleData.prndl = @(YES);
+                subscribeVehicleData.steeringWheelAngle = @(YES);
+                NSNumber *correlationID = [self correlationIDNumber];
+                DDLogError(@"correlationID : %@", correlationID);
+                subscribeVehicleData.correlationID = correlationID;
+                [self sendRequest:subscribeVehicleData];
+            }
+        }
     }
 }
 
@@ -1252,12 +1273,36 @@ PNConfiguration *configuration = [PNConfiguration configurationWithPublishKey:@"
     [self sendRequest:request]; 
 }
 
-- (void)onOnVehicleData:(SDLOnVehicleData *)notification {
+- (void)onSubscribeVehicleDataResponse:(SDLSubscribeVehicleDataResponse *)response {
+    DDLogError(@"onSubscribeVehicleDataResponse");
+    DDLogError(@"response: %@", response);
+}
 
+- (void)onOnVehicleData:(SDLOnVehicleData *)notification {
+    DDLogError(@"onOnVehicleData");
+    DDLogError(@"notification: %@", notification);
+    [self.client publish:@{@"kph": notification.speed} toChannel:@"qt-data-simulator" withCompletion:^(PNPublishStatus *status) {
+        NSLog(@"status: %@", status);
+    }];
+}
+
+- (void)onGenericResponse:(SDLGenericResponse *)response {
+    DDLogError(@"onGenericResponse");
 }
 
 
 - (void)onOnHMIStatus:(SDLOnHMIStatus *)notification {
+    DDLogError(@"onOnHMIStatus");
+    DDLogError(@"notification: %@", notification);
+    
+//    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+//        DDLogError(@"send request for vehicle data");
+//        SDLGetVehicleData *request = [[SDLGetVehicleData alloc] init];
+//        request.speed = @(YES);
+//        request.rpm = @(YES);
+//        request.fuelLevel = @(YES);
+//        [self sendRequest:request];
+//    });
     [self setCurrentHMILevel:[notification hmiLevel]];
     
     SDLHMILevel *hmiLevel = [notification hmiLevel];
@@ -1276,7 +1321,10 @@ PNConfiguration *configuration = [PNConfiguration configurationWithPublishKey:@"
     }
 }
 
-- (void)onOnDriverDistraction:(SDLOnDriverDistraction *)notification {}
+- (void)onOnDriverDistraction:(SDLOnDriverDistraction *)notification {
+    DDLogError(@"onOnDriverDistraction");
+    DDLogError(@"notification: %@", notification);
+}
 
 - (void)onOnLockScreenNotification:(SDLOnLockScreenStatus *)notification {
     SDLLockScreenStatus *status = [notification lockScreenStatus];
