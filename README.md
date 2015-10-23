@@ -4,7 +4,7 @@ This tutorial is designed to show you how to stream the data from the vehicle's 
 
 This tutorial is based on an existing SmartDeviceLink tutorial located [here](https://github.com/smartdevicelink/sdl_mobileweather_tutorial_ios/wiki).
 
-This repo is intended to interact with our [Qt demo project](https://github.com/jzucker2/PubNubQtSync.git).
+This repo is intended to interact with our [Qt demo project](https://github.com/pubnub/PubNubQtSync.git).
 
 Don't forget to sign up for a [PubNub sub-key and pub-key](https://admin.pubnub.com/#/login).
 
