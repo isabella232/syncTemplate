@@ -83,6 +83,8 @@
     self = [super init];
     if (self) {
         // go to http://pubnub.com to sign up for an account and get a pub key and sub key
+#pragma mark - Get your own sub-key and pub-key at pubnub.com
+        // Go to https://admin.pubnub.com/#/login to get your own pub-key and sub-key
         _client = [PubNub clientWithConfiguration:[PNConfiguration configurationWithPublishKey:@"<pub-key>" subscribeKey:@"<sub-key>"]];
         [_client addListener:self];
         [_client subscribeToChannels:@[@"qt-data-simulator"] withPresence:YES];
@@ -181,7 +183,9 @@
 - (void)registerApplicationInterface {
     SDLRegisterAppInterface *request = [[SDLRegisterAppInterface alloc] init];
     [request setAppName:@"PubNub"];
-    [request setAppID:@"1535172658"];
+#pragma mark - Fill in own AppID
+    // Go to http://projects.genivi.org/smartdevicelink/user to get your own App ID
+    [request setAppID:@"<get app ID>"];
     [request setIsMediaApplication:@(NO)];
     [request setLanguageDesired:[SDLLanguage EN_US]];
     [request setHmiDisplayLanguageDesired:[SDLLanguage EN_US]];
@@ -213,12 +217,10 @@
 }
 
 - (void)onOnPermissionsChange:(SDLOnPermissionsChange *)notification {
-    DDLogError(@"onOnPermissionsChange");
     NSMutableArray *permissions = notification.permissionItem;
     for (SDLPermissionItem *item in permissions) {
         if ([item.rpcName isEqualToString:@"SubscribeVehicleData"]) {
             if (item.hmiPermissions.allowed && item.hmiPermissions.allowed.count > 0) {
-                DDLogError(@"now we can send subscribe!");
                 SDLSubscribeVehicleData *subscribeVehicleData = [[SDLSubscribeVehicleData alloc] init];
                 subscribeVehicleData.speed = @(YES);
                 subscribeVehicleData.rpm = @(YES);
@@ -231,7 +233,6 @@
                 subscribeVehicleData.prndl = @(YES);
                 subscribeVehicleData.steeringWheelAngle = @(YES);
                 NSNumber *correlationID = [self correlationIDNumber];
-                DDLogError(@"correlationID : %@", correlationID);
                 subscribeVehicleData.correlationID = correlationID;
                 [self sendRequest:subscribeVehicleData];
             }
@@ -1275,35 +1276,19 @@
 }
 
 - (void)onSubscribeVehicleDataResponse:(SDLSubscribeVehicleDataResponse *)response {
-    DDLogError(@"onSubscribeVehicleDataResponse");
-    DDLogError(@"response: %@", response);
 }
 
 - (void)onOnVehicleData:(SDLOnVehicleData *)notification {
-    DDLogError(@"onOnVehicleData");
-    DDLogError(@"notification: %@", notification);
     [self.client publish:@{@"kph": notification.speed} toChannel:@"qt-data-simulator" withCompletion:^(PNPublishStatus *status) {
         NSLog(@"status: %@", status);
     }];
 }
 
 - (void)onGenericResponse:(SDLGenericResponse *)response {
-    DDLogError(@"onGenericResponse");
 }
 
 
 - (void)onOnHMIStatus:(SDLOnHMIStatus *)notification {
-    DDLogError(@"onOnHMIStatus");
-    DDLogError(@"notification: %@", notification);
-    
-//    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-//        DDLogError(@"send request for vehicle data");
-//        SDLGetVehicleData *request = [[SDLGetVehicleData alloc] init];
-//        request.speed = @(YES);
-//        request.rpm = @(YES);
-//        request.fuelLevel = @(YES);
-//        [self sendRequest:request];
-//    });
     [self setCurrentHMILevel:[notification hmiLevel]];
     
     SDLHMILevel *hmiLevel = [notification hmiLevel];
@@ -1323,8 +1308,6 @@
 }
 
 - (void)onOnDriverDistraction:(SDLOnDriverDistraction *)notification {
-    DDLogError(@"onOnDriverDistraction");
-    DDLogError(@"notification: %@", notification);
 }
 
 - (void)onOnLockScreenNotification:(SDLOnLockScreenStatus *)notification {

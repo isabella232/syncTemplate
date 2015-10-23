@@ -1,5 +1,10 @@
 # iOS Mobile Weather Tutorial
 
-This tutorial is designed to show you how to include the SmartDeviceLink SDK in your app and to help you get your app’s features onto the vehicle’s infotainment head unit.
+This tutorial is designed to show you how to stream the data from the vehicle's infotainment head unit on PubNub's global data stream network using the SmartDeviceLink SDK in your app.
 
-Please visit the [wiki](https://github.com/smartdevicelink/sdl_mobileweather_tutorial_ios/wiki) of this repository to get the full tutorial.
+This tutorial is based on an existing SmartDeviceLink tutorial located [here](https://github.com/smartdevicelink/sdl_mobileweather_tutorial_ios/wiki).
+
+To get started, run this in the project's root directory
+```
+pod install
+```
