@@ -1,4 +1,5 @@
 # iOS Mobile Weather Tutorial
+## Contact support@pubnub.com for all questions
 
 This tutorial is designed to show you how to stream the data from the vehicle's infotainment head unit on PubNub's global data stream network using the SmartDeviceLink SDK in your app.
 
@@ -12,3 +13,5 @@ To get started, run this in the project's root directory:
 ```
 pod install
 ```
+
+If you like to learn more about PubNub on 
