@@ -14,4 +14,4 @@ To get started, run this in the project's root directory:
 pod install
 ```
 
-Also, please check out these links if you'd like more information on PubNub's native [C](https://github.com/pubnub/c-core/tree/master/c), [C++](https://github.com/pubnub/c-core/tree/master/cpp), and basic [Qt Wrapper](https://github.com/pubnub/c-core/tree/master/qt) clients.
+Also, please check out these links if you'd like more information on PubNub's native [C](https://github.com/pubnub/c-core/tree/master/c), [C++](https://github.com/pubnub/c-core/tree/master/cpp), [iOS](https://www.pubnub.com/docs/ios-objective-c/pubnub-objective-c-sdk-v4), and basic [Qt Wrapper](https://github.com/pubnub/c-core/tree/master/qt) clients.
